@@ -6,4 +6,12 @@ git add filename
 # 3rd command to save the file
 git commit -m "message"
 
+# 4th command to checkout the file
+git checkout commit_number
+
+# reverse to the latest version
+git checkout master
+
+# see all commits
+git log [--oneline]
 
