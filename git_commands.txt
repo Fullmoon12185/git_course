@@ -7,3 +7,4 @@ git add filename
 git commit -m "message"
 #adding a useless item for the sake of it
 
+# editing the file from github to create a conflict
