@@ -1,10 +1,22 @@
 
-# the first command to initialise git
+# The first command to initialize git
 git init
-# the second command to tell git to keep track of my file
+# The second command to tell git keep track my file
 git add filename
+
 # 3rd command to save the file
 git commit -m "message"
-#adding a useless item for the sake of it
 
-# editing the file from github to create a conflict
+# 4th command to checkout the file
+git checkout commit_number
+
+# revert to the latest version
+git checkout master
+
+# see all commits
+git log [--oneline]
+
+I want to update some info from github
+# Tobias edited one word and added this note
+ 
+>>>>>>> 3bcf74c7cc49f80e48d3ef26bc9055358e085df1
